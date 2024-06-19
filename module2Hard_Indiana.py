@@ -16,4 +16,4 @@ for i in range(1, half_number_indi):
         if number_indi % (i + j) == 0 and i != j:
             part_number = str(i) + str(j)
             result = result + part_number
-print('Код жизни:', result)
+print('Код жизни:', int(result))
